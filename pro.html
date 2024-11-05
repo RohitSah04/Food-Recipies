@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: purple; 
+            color: rgb(224, 209, 224);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            color: rgb(221, 182, 221);
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .recipe-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 20px 0;
+            padding: 15px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: flex;
+            align-items: center;
+        }
+        .recipe-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        .recipe-image {
+            width: 150px; 
+            height: 100px; 
+            border-radius: 8px;
+            margin-right: 15px;
+            object-fit: cover; 
+        }
+        .recipe-title {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .recipe-description {
+            color: #666;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6347; 
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>One Taste One India!</h1>
+        <nav>
+            <a href="pro.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Featured Recipes:</h2>
+
+        <div class="recipe-card">
+            <img src="Paneer-butter-masala.jpg"  class="recipe-image">
+            <div>
+                <h3 class="recipe-title">Paneer Butter Masala</h3>
+                <p class="recipe-description"> a rich & creamy curry made with paneer, indian spices, butter etc.</p>
+                <a href="R - panner.html" class="read-more">Read more</a>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <img src="chicken tikka.jpg"  class="recipe-image">
+            <div>
+                <h3 class="recipe-title">Chicken Tikka Masala</h3>
+                <p class="recipe-description">A flavorful Indian dish made with marinated chicken in a spiced tomato sauce.</p>
+                <a href="chickentikka.html" class="read-more">Read more</a>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <img src="chocolate cake.jpg"  class="recipe-image">
+            <div>
+                <h3 class="recipe-title">Chocolate Cake</h3>
+                <p class="recipe-description">Rich and moist chocolate cake, perfect for any occasion.</p>
+                <a href="R - chocolate cake.html" class="read-more">Read more</a>
+            </div>
+        </div>
+
+        <div class="recipe-card">
+            <img src="Vegetable-Stir.jpg"  class="recipe-image">
+            <div>
+                <h3 class="recipe-title">Vegetable Stir Fry</h3>
+                <p class="recipe-description">A quick and healthy stir fry with a mix of colorful vegetables.</p>
+                <a href="R - vegetable.html" class="read-more">Read more</a>
+            </div>
+        </div>
+        
+        <div class="recipe-card">
+            <img src="Gulab Jamun.jpg"  class="recipe-image">
+            <div>
+                <h3 class="recipe-title">Gulab Jamun</h3>
+                <p class="recipe-description"> Gulab jamun is a classic Indian sweet mostly made on the speial occasion.</p>
+                <a href="R - gulab jamun.html" class="read-more">Read more</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 One Taste One India. All rights reserved.</p>
+    </footer>
+</body>
+</html>
