@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Our Food Recipes Community</title>
+    <link rel="stylesheet" href="s2.css"> 
+</head>
+<body>
+    <header>
+        <h1>Join Our Food Recipes Community</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Our Delicious Community!</h2>
+            <p>We're thrilled to have you here! At One Taste One India, we believe that food has the power to bring people together. By joining our community, you’ll get access to exclusive recipes, cooking tips, and be part of a group of food lovers just like you!</p>
+        </section>
+
+        <section>
+            <h2>Why Join Us?</h2>
+            <ul>
+                <li>Access to a wide variety of authentic and easy-to-follow recipes</li>
+                <li>Get cooking tips and tricks from food enthusiasts</li>
+                <li>Share your culinary creations with a like-minded community</li>
+                <li>Receive updates on new recipes, cooking challenges, and more!</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Sign Up Today</h2>
+            <p>Fill in the form below to join our community. It’s quick and easy!</p>
+
+            <form action="submit_form.php" method="POST">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="preferences">Favorite Cuisine:</label>
+                <input type="text" id="preferences" name="preferences">
+
+                <label for="message">Tell us why you want to join:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Join the Community</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 One Taste One India. All rights reserved.</p>
+    </footer>
+</body>
+</html>
